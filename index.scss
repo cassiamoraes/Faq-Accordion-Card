@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;400&display=swap');
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background: linear-gradient(to bottom, hwb(273 40% 9%),hsl(240, 73%, 65%));
+}
+
+
+.container{
+    margin: auto;
+    width: auto;
+    max-height: 100vh;
+    padding: 1.5rem;
+    
+    border-radius: 2rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.144);
+
+    background-color: white;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -41rem 68%;
+    background-size: 65rem;    
+}
+
+section{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.principalimg img{
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 10rem;
+
+  }
+  
+  .divbox img{
+    position: absolute;
+    margin-top: 18rem;
+    margin-left: 9.5rem;
+  }
+
+  .div-btn img{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }  
+
+h1{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 28.3rem;
+
+}
+
+
+
+//Buttons
+
+.accordion{
+    height: 25rem;
+    max-height: 100vh;
+    margin-top: 5.5rem;
+    margin-left: 3rem;
+}
+
+.accordion-item{
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.123);
+    width: 23rem;
+    margin-top: 0rem;
+    margin-bottom: 0.2rem;
+    margin-left: 25rem;
+
+    .accordion-button{
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 0.85rem;
+        cursor: pointer;
+        border: none;
+        text-decoration: none;
+        width: 18rem;
+        text-align: start;
+        background-color: rgba(255, 255, 255, 0);
+    } 
+
+    .div-btn{
+        :hover{
+            color: hsl(14, 88%, 65%);
+        }
+        :focus{
+            font-weight: bold;
+        }
+    }
+      
+}
+
+.accordion-body{
+    margin:1rem;
+    margin-left: 0.4rem;
+    color: gray;
+
+}
+
+.accordion-collapse{
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    display: none;
+    font-size: 0.8rem;
+
+}
+
+@media all and (max-width: 600px) {
+    section{
+        height: 110%;
+        padding-bottom: 2rem;
+    }
+
+    .container{
+        width: 20rem;
+        display: flex;
+        flex-direction: row;
+        margin-top: 9rem;
+        max-height: fit-content;
+
+        background-position: 4rem -9rem;
+        background-size: 16rem; 
+    }
+
+    h1{
+        position: absolute;
+        margin-top: 6.5rem;
+        margin-left: 8.5rem;
+        font-size: 2rem;
+    }
+
+    .principalimg img{
+        max-width: 15rem;
+        position:absolute;
+        margin-left: 9rem;
+        margin-top: 2rem;
+    
+      }
+      
+      .divbox img{
+        max-width: 6.5rem;
+        position: absolute;
+        margin-top: 6rem;
+        margin-left: 7.5rem;
+      }
+
+      .div-btn img{
+        margin-top: 1rem;
+        margin-left: 1rem;
+      }
+
+      .accordion{
+        width: 20rem;
+        margin-left: 0.1rem;
+        margin-top: 12rem;
+        padding-bottom: 1rem;
+
+        .accordion-item{
+            margin-left: 0.1rem;
+            width: 20rem;
+            
+        }
+      }
+
+      .accordion-collapse{
+        margin-top: -0.5rem;
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
+        
+    }
+}

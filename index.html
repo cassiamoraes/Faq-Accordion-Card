@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+</head>
+
+<body>
+
+    <divc class="principalimg"><img src="images/illustration-woman-online-desktop.svg" alt="imagem principal"></div>
+    <div class="divbox"><img src="images/illustration-box-desktop.svg" alt="box"></div>
+
+  <section>
+
+    <div class="container">
+      <h1>FAQ</h1>
+
+      <div class="accordion" id="accordionList">
+        <div class="accordion-item">
+
+          <h2 class="accordion-header">
+            <div class="div-btn" data-target="accordionOne">
+              <button class="accordion-button" type="button" data-target="accordionOne"> 
+              How many team members can I invite? 
+              </button>
+              <img src="images/icon-arrow-down.svg" alt="" name="accordionOne" data-target="accordionOne" class="arrowdown">
+            </div>
+          </h2>
+          <div class="accordion-collapse" id="accordionOne">
+            <div class="accordion-body">
+              You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.
+            </div>
+          </div>
+        </div>
+      
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <div class="div-btn" data-target="accordionTwo">
+              <button class="accordion-button" type="button" data-target="accordionTwo">
+              What is the maximum file upload size?
+              </button>
+              <img src="images/icon-arrow-down.svg" alt="" name="accordionTwo" data-target="arrowTwo">
+            </div>
+          </h2>
+          <div class="accordion-collapse" id="accordionTwo">
+            <div class="accordion-body">
+              No more than 2GB. All files in your account must fit your allotted storage space.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <div class="div-btn" data-target="accordionThree">
+              <button class="accordion-button" type="button" data-target="accordionThree">
+              How do I reset my password?
+              <div class="arrow"></div>
+              </button>
+              <img src="images/icon-arrow-down.svg" alt="" name="accordionThree" data-target="arrowThree">
+            </div>
+          </h2>
+          <div class="accordion-collapse" id="accordionThree">
+            <div class="accordion-body">
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <div class="div-btn" data-target="accordionFour">
+              <button class="accordion-button" type="button" data-target="accordionFour">
+              Can I cancel my subscription?
+              <div class="arrow"></div>
+              </button>
+              <img src="images/icon-arrow-down.svg" alt="" name="accordionFour" data-target="arrowFour">
+            </div>
+          </h2>
+          <div class="accordion-collapse" id="accordionFour">
+            <div class="accordion-body">
+            Yes! Send us a message and we’ll process your request no questions asked.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <div class="div-btn" data-target="accordionFive">
+              <button class="accordion-button" type="button" data-target="accordionFive">
+              Do you provide additional support?
+              <div class="arrow"></div>
+              </button>
+              <img src="images/icon-arrow-down.svg" alt="" name="accordionFive" data-target="arrowFive">
+            </div>
+          </h2>
+          <div class="accordion-collapse" id="accordionFive">
+            <div class="accordion-body">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</body>
+
+<script src="toggle.js"></script>
+
+</html>
