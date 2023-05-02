@@ -35,15 +35,15 @@ section{
 
 .principalimg img{
     position: absolute;
-    margin-left: 10rem;
-    margin-top: 10rem;
+    right: 45rem;
+    margin-top: 4rem;
 
   }
   
   .divbox img{
     position: absolute;
-    margin-top: 18rem;
-    margin-left: 9.5rem;
+    right: 64rem;
+    margin-top: 12rem;
   }
 
   .div-btn img{
@@ -53,9 +53,9 @@ section{
   }  
 
 h1{
-    position: absolute;
-    margin-top: 2rem;
-    margin-left: 28.3rem;
+   // position: absolute;
+    //margin-top: 2rem;
+   margin-left: 25.3rem;
 
 }
 
@@ -66,15 +66,15 @@ h1{
 .accordion{
     height: 25rem;
     max-height: 100vh;
-    margin-top: 5.5rem;
-    margin-left: 3rem;
+    margin-top: 4rem;
+    //margin-left: 3rem;
 }
 
 .accordion-item{
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.123);
     width: 23rem;
-    margin-top: 0rem;
-    margin-bottom: 0.2rem;
+    //margin-top: 0rem;
+    //margin-bottom: 0.2rem;
     margin-left: 25rem;
 
     .accordion-button{
@@ -141,8 +141,8 @@ h1{
     .principalimg img{
         max-width: 15rem;
         position:absolute;
-        margin-left: 9rem;
-        margin-top: 2rem;
+        right: 7.5rem;
+        margin-top: -8rem;
     
       }
       
